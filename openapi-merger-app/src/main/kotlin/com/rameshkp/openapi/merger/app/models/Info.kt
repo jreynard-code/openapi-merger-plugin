@@ -1,7 +1,7 @@
 package com.rameshkp.openapi.merger.app.models
 
-import javax.validation.Valid
-import javax.validation.constraints.NotBlank
+import jakarta.validation.Valid
+import jakarta.validation.constraints.NotBlank
 
 data class Info(@field:NotBlank(message = "OpenApi Info Title cannot be blank") var title: String? = null,
                 var description: String? = null,
